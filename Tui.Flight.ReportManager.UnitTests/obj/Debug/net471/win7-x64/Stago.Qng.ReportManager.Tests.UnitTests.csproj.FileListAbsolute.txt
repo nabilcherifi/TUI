@@ -1,0 +1,17 @@
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\NUnit3.TestAdapter.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\NUnit3.TestAdapter.pdb
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\nunit.engine.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\nunit.engine.api.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Mono.Cecil.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.xml
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.pdb
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.dll.CodeAnalysisLog.xml
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Tests.UnitTests\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.dll.lastcodeanalysissucceeded
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.csprojResolveAssemblyReference.cache
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.csproj.CoreCompileInputs.cache
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.AssemblyInfoInputs.cache
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.AssemblyInfo.cs
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.csproj.CopyComplete
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.dll
+D:\Work_Git\QNG\QNG-Code\QNG-Code\QNG-Code\Cs.Dev\src\Tui.Flight.ReportManager.UnitTests\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Tests.UnitTests.pdb

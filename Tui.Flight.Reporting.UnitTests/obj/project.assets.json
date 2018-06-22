@@ -1,0 +1,435 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "JetBrains.dotCover.CommandLineTools/2018.1.2": {
+        "type": "package"
+      },
+      "Microsoft.CodeCoverage/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/15.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "1.0.3"
+        },
+        "build": {
+          "build/net45/Microsoft.Net.Test.Sdk.props": {},
+          "build/net45/Microsoft.Net.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Net.Test.Sdk.props": {}
+        }
+      },
+      "NUnit/3.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit.ConsoleRunner/3.8.0": {
+        "type": "package"
+      },
+      "NUnit3TestAdapter/3.10.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win7-x64": {
+      "JetBrains.dotCover.CommandLineTools/2018.1.2": {
+        "type": "package"
+      },
+      "Microsoft.CodeCoverage/1.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/15.7.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "1.0.3"
+        },
+        "build": {
+          "build/net45/Microsoft.Net.Test.Sdk.props": {},
+          "build/net45/Microsoft.Net.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Net.Test.Sdk.props": {}
+        }
+      },
+      "NUnit/3.10.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/nunit.framework.dll": {}
+        },
+        "build": {
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit.ConsoleRunner/3.8.0": {
+        "type": "package"
+      },
+      "NUnit3TestAdapter/3.10.0": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      }
+    }
+  },
+  "libraries": {
+    "JetBrains.dotCover.CommandLineTools/2018.1.2": {
+      "sha512": "A+1oVnoFlxchfbuVvxSi/ajbKr6H4aXjgRAcCEDN1IzOvFiweky5J9noJYkWsMHfbJWTphkO2Wq7ph3WFulUlw==",
+      "type": "package",
+      "path": "jetbrains.dotcover.commandlinetools/2018.1.2",
+      "files": [
+        "jetbrains.dotcover.commandlinetools.2018.1.2.nupkg.sha512",
+        "jetbrains.dotcover.commandlinetools.nuspec",
+        "tools/Annotations/net20/JetBrains.Annotations.dll",
+        "tools/Annotations/netstandard1.0/JetBrains.Annotations.dll",
+        "tools/Annotations/portable40-net40+sl4+win8+wp7/JetBrains.Annotations.dll",
+        "tools/Annotations/portable40-net40+sl5+win8+wp8+wpa81/JetBrains.Annotations.dll",
+        "tools/Castle.Core.dll",
+        "tools/CookComputing.XmlRpcV2.dll",
+        "tools/DeploymentPackagingIdentity.txt",
+        "tools/ICSharpCode.SharpZipLib.dll",
+        "tools/JetBrains.Annotations.dll",
+        "tools/JetBrains.Common.Remotable.Proxy.dll",
+        "tools/JetBrains.Common.Remotable.Util.dll",
+        "tools/JetBrains.Common.Remotable.dll",
+        "tools/JetBrains.Common.SignatureDefinitions.dll",
+        "tools/JetBrains.Common.UnitTesting.ClientController.dll",
+        "tools/JetBrains.Common.UnitTesting.ControlKindProviders.dll",
+        "tools/JetBrains.Common.UnitTesting.InProcDataCollector.dll",
+        "tools/JetBrains.Common.Util.Metadata.dll",
+        "tools/JetBrains.Common.Util.dll",
+        "tools/JetBrains.Common.WCF.dll",
+        "tools/JetBrains.Etw.dll",
+        "tools/JetBrains.MSBuild.Logger.Api.dll",
+        "tools/JetBrains.Platform.BuildInterfaces.dll",
+        "tools/JetBrains.Platform.ComponentModel.dll",
+        "tools/JetBrains.Platform.Core.dll",
+        "tools/JetBrains.Platform.Interop.WinApi.dll",
+        "tools/JetBrains.Platform.Metadata.dll",
+        "tools/JetBrains.Platform.RdCore.dll",
+        "tools/JetBrains.Platform.Shell.dll",
+        "tools/JetBrains.Platform.Util.dll",
+        "tools/JetBrains.Profiler.Snapshot.Interface.dll",
+        "tools/JetBrains.Profiler.Snapshot.dll",
+        "tools/JetBrains.Profiler.Util.dll",
+        "tools/JetBrains.Profiler.Windows.Api.dll",
+        "tools/JetBrains.Profiler.Windows.Impl.dll",
+        "tools/JetBrains.Profiler.Windows.Impl.dll.config",
+        "tools/JetBrains.Profiler.Windows.RemoteAgent.dll",
+        "tools/JetBrains.Profiler.Windows.RemoteAgent.dll.config",
+        "tools/JetBrains.Profiler.Windows.RemoteApi.dll",
+        "tools/JetBrains.Profiler.Windows.SysTools.dll",
+        "tools/JetBrains.Profiler.Windows.dll",
+        "tools/JetBrains.Profiler.dll",
+        "tools/JetBrains.ProfilingInstance.dll",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR4.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR4.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR4.x64.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR4.x64.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR45.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR45.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR45.x64.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.CLR45.x64.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunner.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunner.x64.exe",
+        "tools/JetBrains.ReSharper.TaskRunner.x64.exe.config",
+        "tools/JetBrains.ReSharper.TaskRunnerFramework.dll",
+        "tools/JetBrains.ReSharper.UnitTestFramework.dll",
+        "tools/JetBrains.ReSharper.UnitTestRunner.nUnit.dll",
+        "tools/JetBrains.ReSharper.UnitTestRunner.nUnit26.dll",
+        "tools/JetBrains.ReSharper.UnitTestRunner.nUnit30.dll",
+        "tools/JetBrains.System.Reflection.Metadata.dll",
+        "tools/JetBrains.dotCover.Core.dll",
+        "tools/JetBrains.dotCover.DataAccess.dll",
+        "tools/JetBrains.dotCover.RemoteCoverageServer.Api.dll",
+        "tools/JetBrains.dotCover.Shared.dll",
+        "tools/JetBrains.dotCover.UnitTesting.ClientController.dll",
+        "tools/JetBrains.dotCover.Workspace.dll",
+        "tools/JetBrains.dotCover.WorkspaceHost.exe",
+        "tools/Microsoft.Web.XmlTransform.dll",
+        "tools/NUnit2/nunit.core.dll",
+        "tools/NUnit2/nunit.core.interfaces.dll",
+        "tools/NUnit2/nunit.util.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/NuGet.Common.dll",
+        "tools/NuGet.Configuration.dll",
+        "tools/NuGet.Core.dll",
+        "tools/NuGet.Frameworks.dll",
+        "tools/NuGet.Packaging.Core.dll",
+        "tools/NuGet.Packaging.dll",
+        "tools/NuGet.Protocol.dll",
+        "tools/NuGet.Versioning.dll",
+        "tools/Sprache.dll",
+        "tools/Vestris.ResourceLib.dll",
+        "tools/dotCover.RemoteCoverageServer.exe",
+        "tools/dotCover.RemoteCoverageServer.exe.config",
+        "tools/dotCover.exe",
+        "tools/nunit3/Mono.Cecil.dll",
+        "tools/nunit3/addins/nunit-v2-result-writer.dll",
+        "tools/nunit3/addins/nunit.core.dll",
+        "tools/nunit3/addins/nunit.core.interfaces.dll",
+        "tools/nunit3/addins/nunit.v2.driver.dll",
+        "tools/nunit3/nunit.engine.addins",
+        "tools/nunit3/nunit.engine.api.dll",
+        "tools/nunit3/nunit.engine.dll",
+        "tools/teamcity-plugin.xml",
+        "tools/x64.dbg/JetBrains.Profiler.Windows.Core.dll",
+        "tools/x64.dbg/JetBrains.Profiler.Windows.CoreApi.dll",
+        "tools/x64.dbg/JetBrains.Profiler.Windows.PdbServer.exe",
+        "tools/x64.dbg/JetBrains.Profiler.Windows.WinRTHelper.exe",
+        "tools/x64.dbg/symsrv.dll",
+        "tools/x64.dbg/symsrv.yes",
+        "tools/x64/JetBrains.Profiler.Windows.Core.dll",
+        "tools/x64/JetBrains.Profiler.Windows.CoreApi.dll",
+        "tools/x64/JetBrains.Profiler.Windows.PdbServer.exe",
+        "tools/x64/JetBrains.Profiler.Windows.WinRTHelper.exe",
+        "tools/x64/symsrv.dll",
+        "tools/x64/symsrv.yes",
+        "tools/x86.dbg/JetBrains.Profiler.Windows.Core.dll",
+        "tools/x86.dbg/JetBrains.Profiler.Windows.CoreApi.dll",
+        "tools/x86.dbg/JetBrains.Profiler.Windows.PdbServer.exe",
+        "tools/x86.dbg/JetBrains.Profiler.Windows.WinRTHelper.exe",
+        "tools/x86.dbg/symsrv.dll",
+        "tools/x86.dbg/symsrv.yes",
+        "tools/x86/JetBrains.Profiler.Windows.Core.dll",
+        "tools/x86/JetBrains.Profiler.Windows.CoreApi.dll",
+        "tools/x86/JetBrains.Profiler.Windows.PdbServer.exe",
+        "tools/x86/JetBrains.Profiler.Windows.WinRTHelper.exe",
+        "tools/x86/symsrv.dll",
+        "tools/x86/symsrv.yes"
+      ]
+    },
+    "Microsoft.CodeCoverage/1.0.3": {
+      "sha512": "5KfX12XPfvBomjrZv9nCBfQ6lhZdroVxXvGnY6MqzG83bjqdq6SQ3xxJFdPgHv6oli83M9oNhZlynYehjmboUg==",
+      "type": "package",
+      "path": "microsoft.codecoverage/1.0.3",
+      "files": [
+        "lib/netstandard1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.1.0.3.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/15.7.0": {
+      "sha512": "1oc0SxLGsNDRzzYpMEKkRbb07IQGAZTHgiz0QY1XzwpPLX+GpGj6oZoeqqYe0+9kKy7B0CxtfV4OWipNG0ytng==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/15.7.0",
+      "files": [
+        "build/net45/Microsoft.Net.Test.Sdk.props",
+        "build/net45/Microsoft.Net.Test.Sdk.targets",
+        "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.props",
+        "build/netcoreapp1.0/Microsoft.Net.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.Net.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.Net.Test.Sdk.props",
+        "microsoft.net.test.sdk.15.7.0.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "NUnit/3.10.1": {
+      "sha512": "E3ii6+VLdeIxTQ5gPjk/7g/xl+aCifbfcIkiGayZCuos+22FEdtKGrxMe6SzoXCQCcL7gdqhfNIFTaZ1+dS18g==",
+      "type": "package",
+      "path": "nunit/3.10.1",
+      "files": [
+        "CHANGES.md",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "build/NUnit.props",
+        "lib/net20/NUnit.System.Linq.dll",
+        "lib/net20/nunit.framework.dll",
+        "lib/net20/nunit.framework.pdb",
+        "lib/net20/nunit.framework.xml",
+        "lib/net35/nunit.framework.dll",
+        "lib/net35/nunit.framework.pdb",
+        "lib/net35/nunit.framework.xml",
+        "lib/net40/nunit.framework.dll",
+        "lib/net40/nunit.framework.pdb",
+        "lib/net40/nunit.framework.xml",
+        "lib/net45/nunit.framework.dll",
+        "lib/net45/nunit.framework.pdb",
+        "lib/net45/nunit.framework.xml",
+        "lib/netstandard1.6/nunit.framework.dll",
+        "lib/netstandard1.6/nunit.framework.pdb",
+        "lib/netstandard1.6/nunit.framework.xml",
+        "lib/netstandard2.0/nunit.framework.dll",
+        "lib/netstandard2.0/nunit.framework.pdb",
+        "lib/netstandard2.0/nunit.framework.xml",
+        "nunit.3.10.1.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "NUnit.ConsoleRunner/3.8.0": {
+      "sha512": "CGgYNNMPmK7/BZ7g36g1GcS3heLN2Zl2aAm54dhOZAXZW3l+3S+imyZ3J9WA+SCiRyBC0PbmkCtb4dVkxoxytw==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.8.0",
+      "files": [
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "nunit.consolerunner.3.8.0.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/Mono.Cecil.dll",
+        "tools/nunit-agent-x86.exe",
+        "tools/nunit-agent-x86.exe.config",
+        "tools/nunit-agent.exe",
+        "tools/nunit-agent.exe.config",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.dll",
+        "tools/nunit.nuget.addins",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config"
+      ]
+    },
+    "NUnit3TestAdapter/3.10.0": {
+      "sha512": "hC4QeR/iC8yJcI9eyAfAFWBaDP7lh4CnXqIMLq26CLLGQsLqy44uJwBVmo/0o9aTKVwPm/M1lPYqYcfOJMDqyg==",
+      "type": "package",
+      "path": "nunit3testadapter/3.10.0",
+      "files": [
+        "LICENSE.txt",
+        "build/net35/Mono.Cecil.dll",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp1.0/Mono.Cecil.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.dll",
+        "build/netcoreapp1.0/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp1.0/NUnit3TestAdapter.props",
+        "build/netcoreapp1.0/nunit.engine.netstandard.dll",
+        "nunit3testadapter.3.10.0.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.0.2",
+      "files": [
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "stylecop.analyzers.1.0.2.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "JetBrains.dotCover.CommandLineTools >= 2018.1.2",
+      "Microsoft.NET.Test.Sdk >= 15.7.0",
+      "NUnit >= 3.10.1",
+      "NUnit.ConsoleRunner >= 3.8.0",
+      "NUnit3TestAdapter >= 3.10.0",
+      "StyleCop.Analyzers >= 1.0.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nabil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\TUI\\TUI-Code\\Cs.Dev\\src\\Tui.Flight.Reporting.UnitTests\\Tui.Flights.Reporting.Tests.UnitTests.csproj",
+      "projectName": "Tui.Flight.Reporting.Tests.UnitTests",
+      "projectPath": "D:\\TUI\\TUI-Code\\Cs.Dev\\src\\Tui.Flight.Reporting.UnitTests\\Tui.Flights.Reporting.Tests.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
+      "outputPath": "D:\\TUI\\TUI-Code\\Cs.Dev\\src\\Tui.Flight.Reporting.UnitTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Nabil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "JetBrains.dotCover.CommandLineTools": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2018.1.2, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[15.7.0, )"
+          },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.10.1, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.8.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "target": "Package",
+            "version": "[3.10.0, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x64": {
+        "#import": []
+      }
+    }
+  }
+}

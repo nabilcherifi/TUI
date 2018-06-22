@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <CodeAnalysisRuleSet>../../../Common.Ressources/RuleSets/RuleSetMedium.dev.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <AssemblyName>Tui.Flight.Web.Tests.UnitTests</AssemblyName>
+    <OutputType>Library</OutputType>
+    <DebugType>Full</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>..\..\out\bin\$(Configuration)\Tui.Flight.Web.Tests.UnitTests\</OutputPath>
+    <DocumentationFile>..\..\out\bin\$(Configuration)\Tui.Flight.Web.Tests.UnitTests\net471\win7-x64\Tui.Flight.Web.Tests.UnitTests.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="2.1.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit.ConsoleRunner" Version="3.8.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.7.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tui.Flight.Web.Api\Tui.Flights.Web.Api.csproj" />
+    <ProjectReference Include="..\Tui.Flight.Web.Infrastructure\Tui.Flights.Web.Infrastructure.csproj" />
+    <ProjectReference Include="..\Tui.Flight.Web.Tests.Mock\Tui.Flights.Web.Tests.Mock.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Tui.Flight.Core.EventBus">
+      <HintPath>..\..\out\bin\Debug\Tui.Flight.Reporting.Api\net471\win7-x64\Tui.Flight.Core.EventBus.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <CodeAnalysisRuleSet>../../../Common.Ressources/RuleSets/RuleSetHigh.dev.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <AssemblyName>Tui.Flight.Core.Logger</AssemblyName>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputPath>..\..\out\bin\$(Configuration)\Tui.Flight.Core.Logger\</OutputPath>
+    <DocumentationFile>..\..\out\bin\$(Configuration)\Tui.Flight.Core.Logger\net471\win7-x64\Tui.Flight.Core.Logger.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.0.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+  </ItemGroup>
+
+</Project>

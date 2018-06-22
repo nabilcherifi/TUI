@@ -1,0 +1,343 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeQuality.Analyzers": "2.6.0",
+          "Microsoft.NetCore.Analyzers": "2.6.0",
+          "Microsoft.NetFramework.Analyzers": "2.6.0",
+          "Text.Analyzers": "2.6.0"
+        }
+      },
+      "Microsoft.CodeQuality.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeQuality.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetCore.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetCore.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetFramework.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetFramework.Analyzers.props": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Text.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Text.Analyzers.props": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win7-x64": {
+      "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeQuality.Analyzers": "2.6.0",
+          "Microsoft.NetCore.Analyzers": "2.6.0",
+          "Microsoft.NetFramework.Analyzers": "2.6.0",
+          "Text.Analyzers": "2.6.0"
+        }
+      },
+      "Microsoft.CodeQuality.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeQuality.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetCore.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetCore.Analyzers.props": {}
+        }
+      },
+      "Microsoft.NetFramework.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.NetFramework.Analyzers.props": {}
+        }
+      },
+      "StyleCop.Analyzers/1.0.2": {
+        "type": "package"
+      },
+      "System.Collections/4.3.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "Text.Analyzers/2.6.0": {
+        "type": "package",
+        "build": {
+          "build/Text.Analyzers.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CodeAnalysis.FxCopAnalyzers/2.6.0": {
+      "sha512": "fXL2JWK8mJ4gnwG17mJYwB501mYy3kPI2XD6gbMdIbvGkfOZD/VLzvOkaWlYIEoaD+N4f1leMOFGAtV1GZ+oKw==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.fxcopanalyzers/2.6.0",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "microsoft.codeanalysis.fxcopanalyzers.2.6.0.nupkg.sha512",
+        "microsoft.codeanalysis.fxcopanalyzers.nuspec"
+      ]
+    },
+    "Microsoft.CodeQuality.Analyzers/2.6.0": {
+      "sha512": "nSs2yuSHwpi741zfpOBkxC2h91MqUcFCU0U0XnE+A0VRKqOBbkRydlFF0eSiRRJaA6VAwdAPFIbSqzvor3cQ9w==",
+      "type": "package",
+      "path": "microsoft.codequality.analyzers/2.6.0",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.CodeQuality.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeQuality.CSharp.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeQuality.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.CodeQuality.VisualBasic.Analyzers.dll",
+        "build/Microsoft.CodeQuality.Analyzers.props",
+        "build/Microsoft.CodeQuality.CSharp.Analyzers.props",
+        "build/Microsoft.CodeQuality.VisualBasic.Analyzers.props",
+        "microsoft.codequality.analyzers.2.6.0.nupkg.sha512",
+        "microsoft.codequality.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.NetCore.Analyzers/2.6.0": {
+      "sha512": "MDJCn1S3AvLjTIIPbm1ZOZi9F3SmOCSPFGvtUlcymcX9OJYw/VMzo3lk2s7KXqSENbP6tmsUiY+c0FNWGW61IQ==",
+      "type": "package",
+      "path": "microsoft.netcore.analyzers/2.6.0",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.NetCore.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.NetCore.CSharp.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.NetCore.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.NetCore.VisualBasic.Analyzers.dll",
+        "build/Microsoft.NetCore.Analyzers.props",
+        "build/Microsoft.NetCore.CSharp.Analyzers.props",
+        "build/Microsoft.NetCore.VisualBasic.Analyzers.props",
+        "microsoft.netcore.analyzers.2.6.0.nupkg.sha512",
+        "microsoft.netcore.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.NetFramework.Analyzers/2.6.0": {
+      "sha512": "8R6TnUHBPB60uYOz3vBnocmq7Uqhq49Oi7Kp2uXWINO0M7cm090blPzKn6OdCIdOP1L+RlmV2YkY0hnKhPYBoA==",
+      "type": "package",
+      "path": "microsoft.netframework.analyzers/2.6.0",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.NetFramework.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.NetFramework.CSharp.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.NetFramework.Analyzers.dll",
+        "analyzers/dotnet/vb/Microsoft.NetFramework.VisualBasic.Analyzers.dll",
+        "build/Microsoft.NetFramework.Analyzers.props",
+        "build/Microsoft.NetFramework.CSharp.Analyzers.props",
+        "build/Microsoft.NetFramework.VisualBasic.Analyzers.props",
+        "microsoft.netframework.analyzers.2.6.0.nupkg.sha512",
+        "microsoft.netframework.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "StyleCop.Analyzers/1.0.2": {
+      "sha512": "3xD87lafnVhsSEtJKk50G7FGutvaXkFz4XrrLrxnk/DhZU42dnCGWUsvKuBv4mTS0XdIgTY88tLhxW/8Vi3Pow==",
+      "type": "package",
+      "path": "stylecop.analyzers/1.0.2",
+      "files": [
+        "analyzers/dotnet/cs/StyleCop.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/StyleCop.Analyzers.dll",
+        "stylecop.analyzers.1.0.2.nupkg.sha512",
+        "stylecop.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "System.Collections/4.3.0": {
+      "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
+      "type": "package",
+      "path": "system.collections/4.3.0",
+      "files": [
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/System.Collections.dll",
+        "ref/netcore50/System.Collections.xml",
+        "ref/netcore50/de/System.Collections.xml",
+        "ref/netcore50/es/System.Collections.xml",
+        "ref/netcore50/fr/System.Collections.xml",
+        "ref/netcore50/it/System.Collections.xml",
+        "ref/netcore50/ja/System.Collections.xml",
+        "ref/netcore50/ko/System.Collections.xml",
+        "ref/netcore50/ru/System.Collections.xml",
+        "ref/netcore50/zh-hans/System.Collections.xml",
+        "ref/netcore50/zh-hant/System.Collections.xml",
+        "ref/netstandard1.0/System.Collections.dll",
+        "ref/netstandard1.0/System.Collections.xml",
+        "ref/netstandard1.0/de/System.Collections.xml",
+        "ref/netstandard1.0/es/System.Collections.xml",
+        "ref/netstandard1.0/fr/System.Collections.xml",
+        "ref/netstandard1.0/it/System.Collections.xml",
+        "ref/netstandard1.0/ja/System.Collections.xml",
+        "ref/netstandard1.0/ko/System.Collections.xml",
+        "ref/netstandard1.0/ru/System.Collections.xml",
+        "ref/netstandard1.0/zh-hans/System.Collections.xml",
+        "ref/netstandard1.0/zh-hant/System.Collections.xml",
+        "ref/netstandard1.3/System.Collections.dll",
+        "ref/netstandard1.3/System.Collections.xml",
+        "ref/netstandard1.3/de/System.Collections.xml",
+        "ref/netstandard1.3/es/System.Collections.xml",
+        "ref/netstandard1.3/fr/System.Collections.xml",
+        "ref/netstandard1.3/it/System.Collections.xml",
+        "ref/netstandard1.3/ja/System.Collections.xml",
+        "ref/netstandard1.3/ko/System.Collections.xml",
+        "ref/netstandard1.3/ru/System.Collections.xml",
+        "ref/netstandard1.3/zh-hans/System.Collections.xml",
+        "ref/netstandard1.3/zh-hant/System.Collections.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.collections.4.3.0.nupkg.sha512",
+        "system.collections.nuspec"
+      ]
+    },
+    "Text.Analyzers/2.6.0": {
+      "sha512": "OhgoJu18GveXoxoXqBJvj0WDfQdghrw+v2GdTnArZWfLqsP9lgmseYEKb5b1sIEvOBfzcnY6rGrz2eeKeVLs5Q==",
+      "type": "package",
+      "path": "text.analyzers/2.6.0",
+      "files": [
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Text.Analyzers.dll",
+        "analyzers/dotnet/cs/Text.CSharp.Analyzers.dll",
+        "analyzers/dotnet/vb/Text.Analyzers.dll",
+        "analyzers/dotnet/vb/Text.VisualBasic.Analyzers.dll",
+        "build/Text.Analyzers.props",
+        "build/Text.CSharp.Analyzers.props",
+        "build/Text.VisualBasic.Analyzers.props",
+        "text.analyzers.2.6.0.nupkg.sha512",
+        "text.analyzers.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "Microsoft.CodeAnalysis.FxCopAnalyzers >= 2.6.0",
+      "StyleCop.Analyzers >= 1.0.2",
+      "System.Collections >= 4.3.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Nabil\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj",
+      "projectName": "Tui.Flight.Core.EventBus",
+      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj",
+      "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
+      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBus\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Nabil\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+            "target": "Package",
+            "version": "[2.6.0, )"
+          },
+          "StyleCop.Analyzers": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "System.Collections": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x64": {
+        "#import": []
+      }
+    }
+  }
+}

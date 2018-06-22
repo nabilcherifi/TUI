@@ -1,0 +1,95 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net471</TargetFramework>
+    <RuntimeIdentifier>win7-x64</RuntimeIdentifier>
+    <CodeAnalysisRuleSet>../../../Common.Ressources/RuleSets/RuleSetHigh.dev.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <AssemblyName>Tui.Flight.Persistence.Api</AssemblyName>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS;NET471</DefineConstants>
+	<OutputPath>..\..\out\bin\$(Configuration)\Tui.Flight.Reporting.Api\</OutputPath>
+    <DocumentationFile>..\..\out\bin\$(Configuration)\Tui.Flight.Reporting.Api\net471\win7-x64\Tui.Flight.Reporting.Api.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ViewModels\**" />
+    <Content Remove="ViewModels\**" />
+    <EmbeddedResource Remove="ViewModels\**" />
+    <None Remove="ViewModels\**" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.WindowsServices" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.HttpSys" Version="2.0.3" />
+    <PackageReference Include="Microsoft.ReportingServices.ReportViewerControl.WebForms" Version="140.1000.523" />
+    <PackageReference Include="Microsoft.SqlServer.Types" Version="14.0.314.76" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="2.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="2.4.0" />
+    <PackageReference Include="Microsoft.CodeAnalysis.FxCopAnalyzers" Version="2.6.0" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.0.2" />
+    <PackageReference Include="System.ComponentModel" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tui.Flight.Core.EventBusClient\Tui.FlightsCore.EventBusClient.csproj" />
+    <ProjectReference Include="..\Tui.Flight.Core.EventBus\Tui.Flights.Core.EventBus.csproj" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Web.Services" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Content Update="appsettings.Validating.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Update="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Update="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="appsettings.Production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Update="appsettings.Staging.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>appsettings.json</DependentUpon>
+    </Content>
+    <Content Update="logger.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+	 <Content Update="logger.Developement.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>logger.config</DependentUpon>
+    </Content>
+    <Content Update="logger.Production.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>logger.config</DependentUpon>
+    </Content>
+    <Content Update="logger.Staging.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>logger.config</DependentUpon>
+    </Content>
+    <Content Update="logger.Validating.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>logger.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+
+</Project>

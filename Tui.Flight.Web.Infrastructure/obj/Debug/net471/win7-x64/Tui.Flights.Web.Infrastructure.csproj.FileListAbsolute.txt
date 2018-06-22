@@ -1,0 +1,12 @@
+D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Infrastructure\net471\win7-x64\Tui.Flight.Web.Infrastructure.xml
+D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Infrastructure\net471\win7-x64\Tui.Flight.Web.Infrastructure.dll
+D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Infrastructure\net471\win7-x64\Tui.Flight.Web.Infrastructure.pdb
+D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Infrastructure\net471\win7-x64\Tui.Flight.Web.Infrastructure.dll.CodeAnalysisLog.xml
+D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Infrastructure\net471\win7-x64\Tui.Flight.Web.Infrastructure.dll.lastcodeanalysissucceeded
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flights.Web.Infrastructure.csprojAssemblyReference.cache
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flights.Web.Infrastructure.csproj.CoreCompileInputs.cache
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flights.Web.Infrastructure.AssemblyInfoInputs.cache
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flights.Web.Infrastructure.AssemblyInfo.cs
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flights.Web.Infrastructure.csproj.CopyComplete
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flight.Web.Infrastructure.dll
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Web.Infrastructure\obj\Debug\net471\win7-x64\Tui.Flight.Web.Infrastructure.pdb

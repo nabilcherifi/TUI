@@ -1,0 +1,17 @@
+D:\Working\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.xml
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.csprojResolveAssemblyReference.cache
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.csproj.CoreCompileInputs.cache
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.AssemblyInfoInputs.cache
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.AssemblyInfo.cs
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.dll
+D:\Working\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.pdb
+D:\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.csproj.CoreCompileInputs.cache
+D:\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.AssemblyInfoInputs.cache
+D:\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.ReportManager.Core.AssemblyInfo.cs
+D:\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.xml
+D:\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.dll
+D:\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.pdb
+D:\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.dll.CodeAnalysisLog.xml
+D:\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.dll
+D:\TUI\TUI-Code\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.pdb
+D:\TUI\TUI-Code\Cs.Dev\out\bin\Debug\Tui.Flight.ReportManager.Core\net471\win7-x64\Tui.Flight.ReportManager.Core.dll.lastcodeanalysissucceeded
