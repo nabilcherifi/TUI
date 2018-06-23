@@ -10,6 +10,8 @@ This allows optimizing performances, guaranty extensibility and provide a safety
 
 **UnitOfWork** has been also implemented along with **Repository**. The UnitOfWork and Repository patterns are intended to act like an abstraction layer between business logic and data access layer. This can help insulate the application from changes in the data store and can facilitate automated unit testing / test driven development (TDD).  
 
+I also started to implement **SSRS** to provide a summary report of all entred and calculated data.
+
 The Front-End part is at this time illustrated by **Swagger-UI** interface. 
 Later the application will use a Front-End based Angular development in place of Swagger UI.
 
