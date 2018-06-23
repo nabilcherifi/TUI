@@ -8,7 +8,7 @@ This principle is based on **CQRS pattern**, a modern implementation that **sepa
 Data READ operations are separated from data WRITE operations by using different interfaces. As per this architecture, TUI Application uses Entity Framework object mapping model to get user flight request (READ operations) and uses RabbitMQ asynchronous event based communication to support all WRITE/UPDATE operations, in order to make persistent user requested flight information. 
 This allows optimizing performances, guaranty extensibility and provide a safety READ/WRITE architecture. This model takes care of system evolution via more flexibility and prevents the WRITE/UPDATE commands from introducing conflicts with READ commands.
 
-**UnitOfWork** has been also implemented along with **Repository**. The UnitOfWork and Repository patterns are intended to act like a abstraction layer between business logic and data access layer. This can help insulate your application from changes in the data store and can facilitate automated unit testing / test driven development (TDD).  
+**UnitOfWork** has been also implemented along with **Repository**. The UnitOfWork and Repository patterns are intended to act like an abstraction layer between business logic and data access layer. This can help insulate the application from changes in the data store and can facilitate automated unit testing / test driven development (TDD).  
 
 The Front-End part is at this time illustrated by **Swagger-UI** interface. 
 Later the application will use a Front-End based Angular development in place of Swagger UI.
