@@ -18,3 +18,4 @@ D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x6
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.PersistenceManager.Core.AssemblyInfo.cs
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.dll
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flight.ReportManager.Core.pdb
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.ReportManager.Core\obj\Debug\net471\win7-x64\Tui.Flights.PersistenceManager.Core.csprojAssemblyReference.cache

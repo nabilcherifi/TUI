@@ -29,6 +29,7 @@ namespace Tui.Flights.Persistence.Api
         private ILogger _logger;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="CustomWebHostService"/> class.
         /// Ctor
         /// </summary>
         public CustomWebHostService(IWebHost host)

@@ -38,7 +38,7 @@ namespace Tui.Flights.Persistence.Api
         }
 
         /// <summary>
-        /// Configuration
+        /// Gets or sets configuration
         /// </summary>
         public IConfiguration Configuration { get; set; }
 

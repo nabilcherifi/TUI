@@ -9,7 +9,7 @@ namespace Tui.Flights.Core.EventBus
     public interface IEventBusSubscriptionsManager
     {
         /// <summary>
-        /// IsEmpty
+        /// Gets a value indicating whether isEmpty
         /// </summary>
         bool IsEmpty { get; }
 

@@ -26,6 +26,7 @@ namespace Tui.Flights.Core.EventBusClient
         private string _queueName;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="ClientBus"/> class.
         /// ClientBus Constructor
         /// </summary>
         public ClientBus(

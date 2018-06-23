@@ -9,6 +9,7 @@ namespace Tui.Flights.Web.Core.Models
     public class Flights
     {
         /// <summary>
+        /// Initializes a new instance of the <see cref="Flights"/> class.
         /// Flight
         /// </summary>
         public Flights()
@@ -16,57 +17,57 @@ namespace Tui.Flights.Web.Core.Models
         }
 
         /// <summary>
-        /// Id
+        /// Gets or sets id
         /// </summary>
         public int Id { get; set; }
 
         /// <summary>
-        /// Name
+        /// Gets or sets name
         /// </summary>
         public string Name { get; set; }
 
         /// <summary>
-        /// FlightId
+        /// Gets or sets flightId
         /// </summary>
         public string FlightId { get; set; }
 
         /// <summary>
-        /// DepartureAirport
+        /// Gets or sets departureAirport
         /// </summary>
         public string DepartureAirport { get; set; }
 
         /// <summary>
-        /// ArrivalAirport
+        /// Gets or sets arrivalAirport
         /// </summary>
         public string ArrivalAirport { get; set; }
 
         /// <summary>
-        /// Period
+        /// Gets or sets period
         /// </summary>
         public string Period { get; set; }
 
         /// <summary>
-        /// StartDate
+        /// Gets or sets startDate
         /// </summary>
         public DateTime StartDate { get; set; }
 
         /// <summary>
-        /// EndDate
+        /// Gets or sets endDate
         /// </summary>
         public DateTime EndDate { get; set; }
 
         /// <summary>
-        /// Number
+        /// Gets or sets number
         /// </summary>
         public string Number { get; set; }
 
         /// <summary>
-        /// TType
+        /// Gets or sets tType
         /// </summary>
         public string Ttype { get; set; }
 
         /// <summary>
-        /// IsEnabled
+        /// Gets or sets a value indicating whether isEnabled
         /// </summary>
         public bool IsEnabled { get; set; }
     }

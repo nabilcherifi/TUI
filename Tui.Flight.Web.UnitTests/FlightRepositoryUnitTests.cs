@@ -14,6 +14,8 @@ namespace Tui.Flights.Web.Tests.UnitTests
         /// <summary>
         /// ShouldReturnPeriods
         /// </summary>
+        /// <param name="expectedPeriod1">expectedPeriod1</param>
+        /// <param name="expectedPeriod2">expectedPeriod2</param>
         [TestCase("May 2018", "June 2017")]
         public static void ShouldReturnPeriods(string expectedPeriod1, string expectedPeriod2)
         {
@@ -33,6 +35,10 @@ namespace Tui.Flights.Web.Tests.UnitTests
         /// <summary>
         /// ShouldReturnFlights
         /// </summary>
+        /// <param name="departureAirport">departureAirport</param>
+        /// <param name="arrivalAirport">arrivalAirport</param>
+        /// <param name="flightStartDate">flightStartDate</param>
+        /// <param name="flightEndDate">flightEndDate</param>
         [TestCase("Paris", "Doubaï", "1/1/2018", "1/2/2018")]
         [TestCase("Paris", "Chicago", "1/1/2018", "1/2/2018")]
         public static void ShouldReturnFlights(string departureAirport, string arrivalAirport, string flightStartDate, string flightEndDate)

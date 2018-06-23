@@ -7,7 +7,7 @@ using Tui.Flights.Web.Core.Models;
 namespace Tui.Flights.Web.Tests.Mock
 {
     /// <summary>
-    /// TuiContextWithData
+    /// MockTuiContextInMemoryWithData
     /// </summary>
     public class MockTuiContextInMemoryWithData
     {
@@ -15,6 +15,10 @@ namespace Tui.Flights.Web.Tests.Mock
         {
         }
 
+        /// <summary>
+        /// MockContext
+        /// </summary>
+        /// <returns>void</returns>
         public static TuiDbContext MockContext()
         {
             // In-memory database by GUID. This is to make sure that every test run has new database.

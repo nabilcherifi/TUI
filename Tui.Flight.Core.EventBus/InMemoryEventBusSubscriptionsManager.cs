@@ -23,7 +23,7 @@ namespace Tui.Flights.Core.EventBus
         }
 
         /// <summary>
-        /// IsEmpty
+        /// Gets a value indicating whether isEmpty
         /// </summary>
         public bool IsEmpty => !this._handlers.Keys.Any();
 

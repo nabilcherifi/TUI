@@ -8,7 +8,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
     public interface ITuiUnitOfWork : IDisposable
     {
         /// <summary>
-        /// FlightRepository
+        /// Gets flightRepository
         /// </summary>
         IFlightRepository FlightRepository { get; }
 

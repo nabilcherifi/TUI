@@ -33,6 +33,7 @@ namespace Tui.Flights.Web.Api
         private System.Diagnostics.EventLog eventLog;*/
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="CustomWebHostService"/> class.
         /// Ctor
         /// </summary>
         public CustomWebHostService(IWebHost host)

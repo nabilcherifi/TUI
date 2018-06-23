@@ -25,3 +25,4 @@ D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.EventBus\obj\Debug\net471\win7-x64\Tui
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.EventBus\obj\Debug\net471\win7-x64\Tui.Flights.Core.EventBus.AssemblyInfo.cs
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.EventBus\obj\Debug\net471\win7-x64\Tui.Flight.Core.EventBus.dll
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.EventBus\obj\Debug\net471\win7-x64\Tui.Flight.Core.EventBus.pdb
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.EventBus\obj\Debug\net471\win7-x64\Tui.Flights.Core.EventBus.csprojAssemblyReference.cache

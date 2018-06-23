@@ -6,27 +6,27 @@
     public class FlightRequest
     {
         /// <summary>
-        /// FlightId
+        /// Gets or sets flightId
         /// </summary>
         public string FlightId { get; set; }
 
         /// <summary>
-        /// FlightStartDate
+        /// Gets or sets flightStartDate
         /// </summary>
         public string FlightStartDate { get; set; }
 
         /// <summary>
-        /// FlightEndDate
+        /// Gets or sets flightEndDate
         /// </summary>
         public string FlightEndDate { get; set; }
 
         /// <summary>
-        /// DepartureAirport
+        /// Gets or sets departureAirport
         /// </summary>
         public string DepartureAirport { get; set; }
 
         /// <summary>
-        /// ArrivalAirport
+        /// Gets or sets arrivalAirport
         /// </summary>
         public string ArrivalAirport { get; set; }
     }

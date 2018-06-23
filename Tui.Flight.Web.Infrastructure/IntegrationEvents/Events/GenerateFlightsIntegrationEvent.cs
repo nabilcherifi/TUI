@@ -1,34 +1,35 @@
-﻿using Tui.Flights.Core.EventBus;
-
-namespace Tui.Flights.Web.Infrastructure.IntegrationEvents.Events
+﻿namespace Tui.Flights.Web.Infrastructure.IntegrationEvents.Events
 {
+    using Tui.Flights.Core.EventBus;
+
     /// <summary>
     /// GenerateReportsIntegrationEvent
     /// </summary>
     public class GenerateFlightsIntegrationEvent : IntegrationEvent
     {
         /// <summary>
-        /// FlightId
+        /// Gets or sets flightId
         /// </summary>
         public string FlightId { get; set; }
 
         /// <summary>
-        /// FlightPeriod
+        /// Gets or sets flightPeriod
         /// </summary>
         public string FlightPeriod { get; set; }
 
         /// <summary>
-        /// FlightArrivalAirport
+        /// Gets or sets flightArrivalAirport
         /// </summary>
         public string FlightArrivalAirport { get; set; }
 
         /// <summary>
-        /// FlightDepartureAirport
+        /// Gets or sets flightDepartureAirport
         /// </summary>
         public string FlightDepartureAirport { get; set; }
 
         /// <summary>
-        /// GenerateReportsIntegrationEvent
+        /// Initializes a new instance of the <see cref="GenerateFlightsIntegrationEvent"/> class.
+        /// GenerateFlightsIntegrationEvent
         /// </summary>
         /// <param name="flightId">flightId</param>
         /// <param name="flightPeriod">flightPeriod</param>

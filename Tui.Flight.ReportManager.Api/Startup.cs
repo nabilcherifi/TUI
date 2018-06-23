@@ -21,7 +21,7 @@
         }
 
         /// <summary>
-        /// Configuration
+        /// Gets or sets configuration
         /// </summary>
         public static IConfiguration Configuration { get; set; }
 

@@ -19,6 +19,7 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
         private readonly ILogger<GenerateFlightsMessageHandler> _logger;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="GenerateFlightsMessageHandler"/> class.
         /// GenerateFlightsMessageHandler
         /// </summary>
         /// <param name="configuration">configuration</param>
@@ -167,17 +168,17 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
         internal class TuiDataTask
         {
             /// <summary>
-            /// instrument serial number
+            /// Gets or sets instrument serial number
             /// </summary>
             public string SerialNumber { get; set; }
 
             /// <summary>
-            /// Period
+            /// Gets or sets period
             /// </summary>
             public string Period { get; set; }
 
             /// <summary>
-            /// FlightName
+            /// Gets or sets flightName
             /// </summary>
             public string FlightName { get; set; }
         }

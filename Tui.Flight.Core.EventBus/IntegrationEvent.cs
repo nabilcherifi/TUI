@@ -18,12 +18,12 @@ namespace Tui.Flights.Core.EventBus
         }
 
         /// <summary>
-        /// Id
+        /// Gets id
         /// </summary>
         public Guid Id { get; }
 
         /// <summary>
-        /// CreationDate
+        /// Gets creationDate
         /// </summary>
         public DateTime CreationDate { get; }
     }

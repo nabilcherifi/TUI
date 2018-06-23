@@ -18,6 +18,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
         private readonly TuiDbContext _tuiContext;
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FlightRepository"/> class.
         /// FlightRepository
         /// </summary>
         /// <param name="tuiContext">qngContext</param>
@@ -28,6 +29,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
         }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="FlightRepository"/> class.
         /// FlightRepository
         /// </summary>
         /// <param name="tuiContext">qngContext</param>
@@ -100,6 +102,32 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
         public void Save()
         {
             this._tuiContext.SaveChanges();
+        }
+
+        /// <summary>
+        /// GetSummaryFlights
+        /// </summary>
+        /// <param name="departureAirport">departureAirport</param>
+        /// <param name="arrivalAirport">arrivalAirport</param>
+        /// <param name="flightStartDate">flightStartDate</param>
+        /// <param name="flightEndDate">flightEndDate</param>
+        /// <returns>string[]</returns>
+        public string[] GetSummaryFlights(string departureAirport, string arrivalAirport, string flightStartDate, string flightEndDate)
+        {
+            _logger?.LogInformation("Entering GetSummaryFlights() method");
+
+            // ... AsNoTracking() : Improve performance
+            var flightIds = (
+                from flg in this._tuiContext.Flights.AsNoTracking()
+                where (flg.DepartureAirport == departureAirport)
+                      && (flg.ArrivalAirport == arrivalAirport)
+                      && (flg.StartDate.ToShortDateString() == flightStartDate)
+                      && (flg.EndDate.ToShortDateString() == flightEndDate)
+                select flg.FlightId).AsNoTracking().ToArray();
+
+            _logger?.LogInformation($"Leaving GetSummaryFlights() method");
+
+            return flightIds;
         }
 
         /// <inheritdoc />

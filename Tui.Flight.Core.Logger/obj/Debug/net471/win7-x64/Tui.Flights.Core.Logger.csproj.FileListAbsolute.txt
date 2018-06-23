@@ -28,3 +28,4 @@ D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.Logger\obj\Debug\net471\win7-x64\Tui.F
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.Logger\obj\Debug\net471\win7-x64\Tui.Flights.Core.Logger.csproj.CopyComplete
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.Logger\obj\Debug\net471\win7-x64\Tui.Flight.Core.Logger.dll
 D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.Logger\obj\Debug\net471\win7-x64\Tui.Flight.Core.Logger.pdb
+D:\ALIVRER_TUI\Cs.Dev\src\Tui.Flight.Core.Logger\obj\Debug\net471\win7-x64\Tui.Flights.Core.Logger.csprojAssemblyReference.cache

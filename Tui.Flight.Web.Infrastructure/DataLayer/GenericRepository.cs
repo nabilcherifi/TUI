@@ -14,16 +14,17 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
     public class GenericRepository<TEntity> where TEntity : class
     {
         /// <summary>
-        /// Context
+        /// Gets context
         /// </summary>
         public TuiDbContext Context { get; }
 
         /// <summary>
-        /// DbSet
+        /// Gets dbSet
         /// </summary>
         public DbSet<TEntity> DbSet { get; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="GenericRepository{TEntity}"/> class.
         /// GenericRepository
         /// </summary>
         /// <param name="context">context</param>

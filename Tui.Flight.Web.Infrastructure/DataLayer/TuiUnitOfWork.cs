@@ -14,11 +14,12 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
         private readonly TuiDbContext _context;
 
         /// <summary>
-        /// FlightRepository
+        /// Gets flightRepository
         /// </summary>
         public IFlightRepository FlightRepository { get; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="TuiUnitOfWork"/> class.
         /// UnitOfWork
         /// </summary>
         /// <param name="dbContext">dbContext</param>

@@ -40,16 +40,6 @@ D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\nunit.engine.dll
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\nunit.engine.api.dll
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\Mono.Cecil.dll
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\logger.config
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\logger.Developement.config
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\logger.Production.config
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\logger.Staging.config
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\logger.Validating.config
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\appsettings.Development.json
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\appsettings.json
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\appsettings.Production.json
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\appsettings.Staging.json
-D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\appsettings.Validating.json
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\Tui.Flight.Web.Tests.IntegrationTests.dll.config
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\Tui.Flight.Web.Tests.IntegrationTests.xml
 D:\ALIVRER_TUI\Cs.Dev\out\bin\Debug\Tui.Flight.Web.Tests.IntegrationTests\net471\win7-x64\Tui.Flight.Web.Tests.IntegrationTests.dll

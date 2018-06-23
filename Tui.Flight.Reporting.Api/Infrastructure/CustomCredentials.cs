@@ -13,12 +13,12 @@ namespace Tui.Flights.Persistence.Api.Infrastructure
         private readonly string _domainName;
 
         /// <summary>
-        /// ImpersonationUser
+        /// Gets impersonationUser
         /// </summary>
         public WindowsIdentity ImpersonationUser => null;
 
         /// <summary>
-        /// NetworkCredentials
+        /// Gets networkCredentials
         /// </summary>
         public ICredentials NetworkCredentials => new NetworkCredential(this._userName, this._passWord, this._domainName);
 

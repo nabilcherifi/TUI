@@ -11,16 +11,17 @@ namespace Tui.Flights.Web.Api.Controllers
     public abstract class BaseController : Controller
     {
         /// <summary>
-        /// DataService
+        /// Gets dataService
         /// </summary>
         protected ITuiDataServices DataService { get; }
 
         /// <summary>
-        /// ITuiIntegrationEventService TuiIntegrationEventService
+        /// Gets iTuiIntegrationEventService TuiIntegrationEventService
         /// </summary>
         protected ITuiIntegrationEventService TuiIntegrationEventService { get; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="BaseController"/> class.
         /// AController
         /// </summary>
         /// <param name="ds">uow</param>

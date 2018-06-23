@@ -9,11 +9,12 @@ namespace Tui.Flights.Web.Core.Models
     public class TuiDbContext : DbContext
     {
         /// <summary>
-        /// Flight
+        /// Gets or sets flight
         /// </summary>
         public virtual DbSet<Flights> Flights { get; set; }
 
         /// <summary>
+        /// Initializes a new instance of the <see cref="TuiDbContext"/> class.
         /// TuiContext
         /// </summary>
         /// <param name="options">options</param>

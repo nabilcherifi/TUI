@@ -45,5 +45,15 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
         /// Save
         /// </summary>
         void Save();
+
+        /// <summary>
+        /// GetSummaryFlights
+        /// </summary>
+        /// <param name="departureAirport">departureAirport</param>
+        /// <param name="arrivalAirport">arrivalAirport</param>
+        /// <param name="flightStartDate">flightStartDate</param>
+        /// <param name="flightEndDate">flightEndDate</param>
+        /// <returns>string[]</returns>
+        string[] GetSummaryFlights(string departureAirport, string arrivalAirport, string flightStartDate, string flightEndDate);
     }
 }

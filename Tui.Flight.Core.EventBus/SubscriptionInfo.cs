@@ -8,12 +8,12 @@ namespace Tui.Flights.Core.EventBus
     public class SubscriptionInfo
     {
         /// <summary>
-        /// IsDynamic
+        /// Gets a value indicating whether isDynamic
         /// </summary>
         public bool IsDynamic { get; }
 
         /// <summary>
-        /// HandlerType
+        /// Gets handlerType
         /// </summary>
         public Type HandlerType { get; }
 
