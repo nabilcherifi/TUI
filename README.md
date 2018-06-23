@@ -12,31 +12,41 @@ This allows optimizing performances, guaranty extensibility and provide a safety
 
 I also started to implement **SSRS** to provide a summary report of all entred and calculated data.
 
+### TESTS
+
+**Unit Tests** and **Integration Tests** have been added using **NUnit**
+
+**MOCK** of DBContext (SQL Database) has been implemented.
+
+**A set of In memory data has been provided for Test Mock purpose.**
+
+### Front End is at the present time illustrated using Swagger UI.
+
 The Front-End part is at this time illustrated by **Swagger-UI** interface. 
 Later the application will use a Front-End based Angular development in place of Swagger UI.
 
 ### Here below are the TUI Back-End Application architecture components as they appear in the Visual Studio 2017 Solution:
 
 **0.Common.Ressources (Coding RULES for Best Pratctices)**
-  - ruleSetHigh.dev.ruleset
-  - RuleSetMedium.dev.ruleset
+  - *ruleSetHigh.dev.ruleset*
+  - *RuleSetMedium.dev.ruleset*
   
 **1.Global (RabbitMQ bus resources)**
-  - Tui.Flights.Core
-  - Tui.Flights.Core.EventBus
-  - Tui.Flights.Core.Logger
-  - Tui.FlightsCore.EventBusClient
+  - *Tui.Flights.Core*
+  - *Tui.Flights.Core.EventBus*
+  - *Tui.Flights.Core.Logger*
+  - *Tui.FlightsCore.EventBusClient*
   
 **2.Application (UnitOfWork, Repository, Data Access Layer)**
   - Tui.Flights.Web.Core (Contains EntityFramework Models)
     - Models
-      - Flights.cs
-      - TuiDbContext.cs
+      - *Flights.cs*
+      - *TuiDbContext.cs*
   - Tui.Flights.Web.Api (Entry point for our Back End solution)
   - Tui.Flights.Web.Infrastructure
     - DataLayer
-      - FlightRepository.cs (EntityFramework based)
-      - TuiUnitOfWork.cs
+      - *FlightRepository.cs (EntityFramework based)*
+      - *TuiUnitOfWork.cs*
     - DataServices
     - IntegrationEvents (RabbitMQ events for Publisher/Consumer)
   
@@ -50,9 +60,9 @@ Later the application will use a Front-End based Angular development in place of
    
 **4.Tests**
   - 4.1.Application
-    - Tui.Flights.Web.Tests.IntegrationTests
-    - Tui.Flights.Web.Tests.Mock 
-    - Tui.Flights.Web.Tests.UnitTests
+    - *Tui.Flights.Web.Tests.IntegrationTests*
+    - *Tui.Flights.Web.Tests.Mock* 
+    - *Tui.Flights.Web.Tests.UnitTests*
 
 **ENTRY POINT** is "GetFlights" method at "HomeController" in "Tui.Flights.Web.Api" project located in "Application" folder. 
 "GetFlights" method receives user http Front-End new flight information requests.
