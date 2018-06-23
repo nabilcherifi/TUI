@@ -1,6 +1,6 @@
-### The main purpose of TUI Application is to provide the user with a flight reservation process.
+## The main purpose of TUI Application is to provide the user with a flight reservation process.
 
-## TUI Application is at the present time Back-End only. 
+### TUI Application is at the present time Back-End only. 
 It is built on ASP Net MVC Core and uses **Entity Framework Core** as object database mapping model for Reading user requested flight information from Database.
 TUI Application is also built around **RabbitMQ** communication Bus in order to support and make user requested flight informations persistent.
 This principle is based on **CQRS pattern**, a modern implementation that **separates READ and WRITE operations**. 
