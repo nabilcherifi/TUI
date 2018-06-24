@@ -1,4 +1,6 @@
 ## The main purpose of TUI Application is to provide the user with a flight reservation process.
+In order to run TUI application on your computer, you must proceed with RabbitMQ server components installation.
+RabbitMQ services are required and not optional. You also may have to install Entity Framework Core clients components.
 
 ### TUI Application is at the present time Back-End only. 
 It is built on ASP Net MVC Core and uses **Entity Framework Core** as object database mapping model for Reading user requested flight information from Database.
