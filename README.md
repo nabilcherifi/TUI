@@ -4,7 +4,7 @@ RabbitMQ services are required and not optional. You also may have to install En
 
 ### TUI Application is at the present time Back-End only. 
 It is built on ASP Net MVC Core and uses **Entity Framework Core** as object database mapping model for Reading user requested flight information from Database.
-TUI Application is also built around **RabbitMQ** communication Bus in order to support and make user requested flight informations persistent.
+TUI Application is also built around **RabbitMQ** event Bus communication, in order to support and make user requested flight informations persistent.
 This principle is based on **CQRS pattern**, a modern implementation that **separates READ and WRITE operations**. 
 
 Data READ operations are separated from data WRITE operations by using different interfaces. As per this architecture, TUI Application uses Entity Framework object mapping model to get user flight request (READ operations) and uses RabbitMQ asynchronous event based communication to support all WRITE/UPDATE operations, in order to make persistent user requested flight information. 
