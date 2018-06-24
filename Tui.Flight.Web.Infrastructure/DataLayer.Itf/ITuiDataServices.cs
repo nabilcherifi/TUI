@@ -1,7 +1,7 @@
-﻿using System.Collections.Generic;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
 {
+    using System.Collections.Generic;
+
     /// <summary>
     /// ITuiDataServices
     /// </summary>

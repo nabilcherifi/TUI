@@ -1,12 +1,13 @@
-﻿using System.Net;
-using System.Security.Principal;
-
-namespace Tui.Flights.Persistence.Api.Infrastructure
+﻿namespace Tui.Flights.Persistence.Api.Infrastructure
 {
+    using System.Net;
+    using System.Security.Principal;
+    using Microsoft.Reporting.WebForms;
+
     /// <summary>
     /// CustomReportCredentials
     /// </summary>
-    public class CustomReportCredentials : Microsoft.Reporting.WebForms.IReportServerCredentials
+    public class CustomReportCredentials : IReportServerCredentials
     {
         private readonly string _userName;
         private readonly string _passWord;

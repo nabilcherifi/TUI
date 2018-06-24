@@ -1,7 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-
-namespace Tui.Flights.Web.Core.Models
+﻿namespace Tui.Flights.Web.Core.Models
 {
+    using Microsoft.EntityFrameworkCore;
+
     /// <inheritdoc />
     /// <summary>
     /// TUIContext

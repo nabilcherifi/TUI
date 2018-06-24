@@ -1,7 +1,7 @@
-﻿using System.Threading.Tasks;
-
-namespace Tui.Flights.Core.EventBus
+﻿namespace Tui.Flights.Core.EventBus
 {
+    using System.Threading.Tasks;
+
     /// <summary>
     /// IIntegrationMessageHandler
     /// </summary>

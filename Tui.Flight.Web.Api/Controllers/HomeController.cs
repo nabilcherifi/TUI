@@ -4,14 +4,14 @@
     using System.Collections.Generic;
     using System.Linq;
     using System.Net;
-    using Infrastructure.DataLayer;
-    using Infrastructure.DataLayer.Itf;
-    using Infrastructure.IntegrationEvents;
-    using Infrastructure.IntegrationEvents.Events;
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.Extensions.Logging;
-    using RequestModels;
     using Tui.Flights.Core.EventBus;
+    using Tui.Flights.Web.Api.RequestModels;
+    using Tui.Flights.Web.Infrastructure.DataLayer;
+    using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
+    using Tui.Flights.Web.Infrastructure.IntegrationEvents;
+    using Tui.Flights.Web.Infrastructure.IntegrationEvents.Events;
 
     /// <summary>
     /// Home controller
@@ -31,7 +31,7 @@
         public HomeController(ILogger<HomeController> logger, ITuiDataServices dataService, ITuiIntegrationEventService eventService)
             : base(dataService, eventService)
         {
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            this._logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         /// <summary>
@@ -57,10 +57,10 @@
         [Route("GetFlights")]
         public IEnumerable<TuiNewFlight> GetFlights([FromBody]FlightRequest requestedFight)
         {
-            _logger?.LogInformation("Entering HomeController GetFlights()");
+            this._logger?.LogInformation("Entering HomeController GetFlights()");
             var flightRequest = requestedFight ?? throw new ArgumentNullException(nameof(requestedFight));
 
-            var flights = DataService.GetFlights(
+            var flights = this.DataService.GetFlights(
                 flightRequest.DepartureAirport,
                 flightRequest.ArrivalAirport,
                 flightRequest.FlightStartDate,
@@ -92,10 +92,10 @@
                 throw new ArgumentNullException(nameof(flightRequest));
             }
 
-            var dataflight = this.DataService.FlightReport(flightRequest.DepartureAirport, flightRequest.ArrivalAirport, flightRequest.FlightStartDate, flightRequest.FlightEndDate);
+            var dataflight = DataService.FlightReport(flightRequest.DepartureAirport, flightRequest.ArrivalAirport, flightRequest.FlightStartDate, flightRequest.FlightEndDate);
 
             // Publish Through RabbitMQ EventBus for Persistence of Flight Request
-            this.GenerateReport(dataflight);
+            GenerateReport(dataflight);
 
             _logger?.LogInformation("Leaving HomeController FlightReport()");
 
@@ -105,7 +105,7 @@
         // Publish Through RabbitMQ EventBus for Persistence of Flight Request
         private void PersistRequestedFlights(IEnumerable<TuiNewFlight> dataFlight)
         {
-            _logger?.LogInformation("Entering HomeController PersistRequestedFlights()");
+            this._logger?.LogInformation("Entering HomeController PersistRequestedFlights()");
 
             var tuiNewFlights = dataFlight as TuiNewFlight[] ?? dataFlight.ToArray();
             IntegrationEvent flightReportEvent = null;
@@ -123,13 +123,13 @@
             // RabbitMQ : Publish Through EventBus for Persistence of Flight Request
             this.TuiIntegrationEventService.PublishThroughEventBusAsync(flightReportEvent);
 
-            _logger?.LogInformation("Leaving HomeController PersistRequestedFlights()");
+            this._logger?.LogInformation("Leaving HomeController PersistRequestedFlights()");
         }
 
         // Write fligth Report through event bus
         private void GenerateReport(TuiNewFlight fligth)
         {
-            _logger?.LogInformation("Entering HomeController GenerateReport()");
+            this._logger?.LogInformation("Entering HomeController GenerateReport()");
 
             var fligthReportEvent = new GenerateReportsIntegrationEvent(
                 fligth.FlightId,
@@ -140,7 +140,7 @@
             // Flight report : Publish Through EventBus
             this.TuiIntegrationEventService.PublishThroughEventBusAsync(fligthReportEvent);
 
-            _logger?.LogInformation("Leaving HomeController GenerateReport()");
+            this._logger?.LogInformation("Leaving HomeController GenerateReport()");
         }
     }
 }

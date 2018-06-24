@@ -13,7 +13,7 @@
         public string FlightId { get; set; }
 
         /// <summary>
-        /// Gets or sets FlightIds
+        /// Gets or sets <see cref="FlightIds"/>
         /// </summary>
         public string[] FlightIds { get; set; }
 

@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Tui.Flights.Core.EventBus
+﻿namespace Tui.Flights.Core.EventBus
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// IEventBusSubscriptionsManager
     /// </summary>

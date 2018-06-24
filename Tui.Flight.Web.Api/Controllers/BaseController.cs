@@ -1,9 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
-using Tui.Flights.Web.Infrastructure.IntegrationEvents;
-
-namespace Tui.Flights.Web.Api.Controllers
+﻿namespace Tui.Flights.Web.Api.Controllers
 {
+    using Microsoft.AspNetCore.Mvc;
+    using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
+    using Tui.Flights.Web.Infrastructure.IntegrationEvents;
+
     /// <inheritdoc />
     /// <summary>
     /// BaseController

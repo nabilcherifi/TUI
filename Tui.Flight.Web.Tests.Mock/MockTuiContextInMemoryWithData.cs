@@ -1,11 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using Microsoft.EntityFrameworkCore;
-using Tui.Flights.Web.Core.Models;
-
-namespace Tui.Flights.Web.Tests.Mock
+﻿namespace Tui.Flights.Web.Tests.Mock
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using Microsoft.EntityFrameworkCore;
+    using Tui.Flights.Web.Core.Models;
+
     /// <summary>
     /// MockTuiContextInMemoryWithData
     /// </summary>

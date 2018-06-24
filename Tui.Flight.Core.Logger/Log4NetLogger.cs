@@ -4,7 +4,9 @@
     using System.Reflection;
     using System.Xml;
     using log4net;
+    using log4net.Config;
     using log4net.Repository;
+    using log4net.Repository.Hierarchy;
     using Microsoft.Extensions.Logging;
 
     /// <summary>
@@ -28,9 +30,9 @@
             ILoggerRepository loggerRepository1;
             ILoggerRepository loggerRepository;
             this._loggerRepository = LogManager.CreateRepository(
-                Assembly.GetEntryAssembly(), typeof(log4net.Repository.Hierarchy.Hierarchy));
+                Assembly.GetEntryAssembly(), typeof(Hierarchy));
             this._log = LogManager.GetLogger(this._loggerRepository.Name, name);
-            log4net.Config.XmlConfigurator.Configure(this._loggerRepository, xmlElement);
+            XmlConfigurator.Configure(this._loggerRepository, xmlElement);
         }
 
         /// <summary>

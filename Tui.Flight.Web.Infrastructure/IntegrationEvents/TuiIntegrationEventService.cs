@@ -1,9 +1,9 @@
-﻿using System;
-using System.Threading.Tasks;
-using Tui.Flights.Core.EventBus;
-
-namespace Tui.Flights.Web.Infrastructure.IntegrationEvents
+﻿namespace Tui.Flights.Web.Infrastructure.IntegrationEvents
 {
+    using System;
+    using System.Threading.Tasks;
+    using Tui.Flights.Core.EventBus;
+
     /// <summary>
     /// TuiIntegrationEventService
     /// </summary>

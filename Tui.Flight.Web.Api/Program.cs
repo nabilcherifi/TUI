@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Server.HttpSys;
-
-namespace Tui.Flights.Web.Api
+﻿namespace Tui.Flights.Web.Api
 {
     using System.Diagnostics;
+    using System.Globalization;
     using System.IO;
     using System.Linq;
     using Microsoft.AspNetCore;
@@ -69,7 +68,7 @@ namespace Tui.Flights.Web.Api
             var host = WebHost.CreateDefaultBuilder(args)
                     .UseKestrel()
                     .UseContentRoot(_pathToContentRoot)
-                    .UseUrls(string.Format(System.Globalization.CultureInfo.InvariantCulture, "http://{0}:{1}", configuration["ServerName"], configuration["ServerPort"]))
+                    .UseUrls(string.Format(CultureInfo.InvariantCulture, "http://{0}:{1}", configuration["ServerName"], configuration["ServerPort"]))
                     .UseStartup<Startup>()
                     .Build();
 

@@ -1,7 +1,7 @@
-﻿using Tui.Flights.Core.EventBus;
-
-namespace Tui.Flights.Reporting.Api.IntegrationsEvents.Events
+﻿namespace Tui.Flights.Reporting.Api.IntegrationsEvents.Events
 {
+    using Tui.Flights.Core.EventBus;
+
     /// <summary>
     /// GenerateFlightsIntegrationEvent
     /// </summary>

@@ -1,8 +1,8 @@
-﻿using System;
-using Microsoft.Extensions.Logging;
-
-namespace Tui.Flights.Core.Logger
+﻿namespace Tui.Flights.Core.Logger
 {
+    using System;
+    using Microsoft.Extensions.Logging;
+
     /// <summary>
     /// Log4NetExtensions
     /// </summary>

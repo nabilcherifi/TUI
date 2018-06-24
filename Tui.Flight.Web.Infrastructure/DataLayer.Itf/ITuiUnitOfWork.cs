@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
 {
+    using System;
+
     /// <summary>
     /// ITuiUnitOfWork
     /// </summary>

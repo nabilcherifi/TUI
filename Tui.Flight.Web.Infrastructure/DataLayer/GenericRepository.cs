@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using Microsoft.EntityFrameworkCore;
-using Tui.Flights.Web.Core.Models;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Linq.Expressions;
+    using Microsoft.EntityFrameworkCore;
+    using Tui.Flights.Web.Core.Models;
+
     /// <summary>
     /// GenericRepository
     /// </summary>

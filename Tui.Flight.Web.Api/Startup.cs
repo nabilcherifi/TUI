@@ -1,12 +1,15 @@
 ﻿namespace Tui.Flights.Web.Api
 {
+    using System.IO;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Server.HttpSys;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Logging;
     using RabbitMQ.Client;
+    using Swashbuckle.AspNetCore.Swagger;
     using Tui.Flights.Core.EventBus;
     using Tui.Flights.Core.EventBusClient;
     using Tui.Flights.Core.Logger;
@@ -43,7 +46,7 @@
         public void ConfigureServices(IServiceCollection services)
         {
             // Authentication
-            var authenticationScheme = Microsoft.AspNetCore.Server.HttpSys.HttpSysDefaults.AuthenticationScheme;
+            var authenticationScheme = HttpSysDefaults.AuthenticationScheme;
             services.AddAuthenticationCore(options =>
             {
                 options.DefaultAuthenticateScheme = authenticationScheme;
@@ -83,7 +86,7 @@
             services.AddSwaggerGen(options =>
             {
                 options.DescribeAllEnumsAsStrings();
-                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Tui.Flights.Web.Api", Version = "v1", Description = "Tui Flight Web Api." });
+                options.SwaggerDoc("v1", new Info { Title = "Tui.Flights.Web.Api", Version = "v1", Description = "Tui Flight Web Api." });
             });
 
             // Add RabbitMq service
@@ -104,7 +107,7 @@
         /// <param name="loggerFactory">loggerFactory</param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddLog4Net(System.IO.Path.Combine(env.ContentRootPath, "logger.config"));
+            loggerFactory.AddLog4Net(Path.Combine(env.ContentRootPath, "logger.config"));
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

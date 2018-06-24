@@ -4,6 +4,7 @@
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
+    using Swashbuckle.AspNetCore.Swagger;
 
     /// <summary>
     /// Startup class
@@ -37,7 +38,7 @@
             services.AddSwaggerGen(options =>
              {
                  options.DescribeAllEnumsAsStrings();
-                 options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info { Title = "Tui.Flights.PersistenceManager.Api", Version = "v1", Description = "Tui Flight PersistenceManager Api." });
+                 options.SwaggerDoc("v1", new Info { Title = "Tui.Flights.PersistenceManager.Api", Version = "v1", Description = "Tui Flight PersistenceManager Api." });
              });
         }
 

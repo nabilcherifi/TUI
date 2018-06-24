@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Tui.Flights.Persistence.Api.Controllers
+﻿namespace Tui.Flights.Persistence.Api.Controllers
 {
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.Mvc;
+
     /// <summary>
     /// Home controller : http://localhost:27960/api/v1/Home
     /// </summary>

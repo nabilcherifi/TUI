@@ -1,7 +1,7 @@
-﻿using System;
-
-namespace Tui.Flights.Core.EventBus
+﻿namespace Tui.Flights.Core.EventBus
 {
+    using System;
+
     /// <summary>
     /// IntegrationEvent
     /// </summary>

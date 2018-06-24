@@ -1,22 +1,14 @@
-﻿using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-
-namespace Tui.Flights.ReportManager.Api.Controllers
+﻿namespace Tui.Flights.ReportManager.Api.Controllers
 {
+    using System.Collections.Generic;
+    using Microsoft.AspNetCore.Mvc;
+
     /// <summary>
     /// Home controller
     /// </summary>
     [Route("api/v1/[controller]")]
     public class HomeController : Controller
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="HomeController"/> class.
-        /// Constructor
-        /// </summary>
-        public HomeController()
-        {
-        }
-
         /// <summary>
         /// Default Get methods (Deployment test)
         /// </summary>
@@ -25,7 +17,7 @@ namespace Tui.Flights.ReportManager.Api.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "TUIProto2.Report.Api" };
+            return new[] { "TUIProto2.Report.Api" };
         }
     }
 }

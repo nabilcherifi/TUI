@@ -1,17 +1,17 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Hosting.WindowsServices;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Tui.Flights.Reporting.Api;
-
-namespace Tui.Flights.Persistence.Api.Infrastructure
+﻿namespace Tui.Flights.Persistence.Api.Infrastructure
 {
+    using System.Diagnostics;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Hosting.WindowsServices;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+
     /// <summary>
     /// TuiReportWebHostService
     /// </summary>
     public class TuiPersistenceWebHostService : WebHostService
     {
-        private readonly System.Diagnostics.EventLog _eventLog;
+        private readonly EventLog _eventLog;
         private readonly IWebHost _host;
         private readonly ILogger _logger;
 
@@ -26,10 +26,10 @@ namespace Tui.Flights.Persistence.Api.Infrastructure
             this.ServiceName = PersistenceContext.ServiceName;
             this.CanStop = true;
             this.CanPauseAndContinue = true;
-            this._eventLog = new System.Diagnostics.EventLog();
-            if (!System.Diagnostics.EventLog.SourceExists(PersistenceContext.ServiceName))
+            this._eventLog = new EventLog();
+            if (!EventLog.SourceExists(PersistenceContext.ServiceName))
             {
-                System.Diagnostics.EventLog.CreateEventSource(PersistenceContext.ServiceName, PersistenceContext.LogRegister);
+                EventLog.CreateEventSource(PersistenceContext.ServiceName, PersistenceContext.LogRegister);
             }
 
             // Configure the event log

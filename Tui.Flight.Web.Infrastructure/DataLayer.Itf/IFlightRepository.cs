@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Tui.Flights.Web.Core.Models;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer.Itf
 {
+    using System;
+    using System.Collections.Generic;
+
     /// <summary>
     /// IFlightRepository
     /// </summary>

@@ -1,11 +1,11 @@
-﻿using System.ServiceProcess;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Hosting.WindowsServices;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-
-namespace Tui.Flights.Web.Api
+﻿namespace Tui.Flights.Web.Api
 {
+    using System.ServiceProcess;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.AspNetCore.Hosting.WindowsServices;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+
     /// <summary>
     /// Class permit to define extensions
     /// </summary>

@@ -1,10 +1,10 @@
-﻿using System.Linq;
-using NUnit.Framework;
-using Tui.Flights.Web.Infrastructure.DataLayer;
-using Tui.Flights.Web.Tests.Mock;
-
-namespace Tui.Flights.Web.Tests.UnitTests
+﻿namespace Tui.Flights.Web.Tests.UnitTests
 {
+    using System.Linq;
+    using NUnit.Framework;
+    using Tui.Flights.Web.Infrastructure.DataLayer;
+    using Tui.Flights.Web.Tests.Mock;
+
     /// <summary>
     /// FlightRepositoryTester
     /// </summary>

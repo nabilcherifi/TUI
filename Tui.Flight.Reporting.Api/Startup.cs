@@ -1,17 +1,19 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using RabbitMQ.Client;
-using Tui.Flights.Core.EventBus;
-using Tui.Flights.Core.EventBusClient;
-using Tui.Flights.Core.Logger;
-using Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling;
-using Tui.Flights.Reporting.Api.IntegrationsEvents.Events;
-
-namespace Tui.Flights.Persistence.Api
+﻿namespace Tui.Flights.Persistence.Api
 {
+    using System.IO;
+    using Microsoft.AspNetCore.Builder;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.DependencyInjection;
+    using Microsoft.Extensions.Logging;
+    using RabbitMQ.Client;
+    using Swashbuckle.AspNetCore.Swagger;
+    using Tui.Flights.Core.EventBus;
+    using Tui.Flights.Core.EventBusClient;
+    using Tui.Flights.Core.Logger;
+    using Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling;
+    using Tui.Flights.Reporting.Api.IntegrationsEvents.Events;
+
     /// <summary>
     /// Startup
     /// </summary>
@@ -63,7 +65,7 @@ namespace Tui.Flights.Persistence.Api
             services.AddSwaggerGen(options =>
             {
                 options.DescribeAllEnumsAsStrings();
-                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                options.SwaggerDoc("v1", new Info
                 {
                     Title = "Tui.Flights.Persistence.Api",
                     Version = "v1",
@@ -88,7 +90,7 @@ namespace Tui.Flights.Persistence.Api
         /// <param name="loggerFactory">loggerFactory</param>
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            loggerFactory.AddLog4Net(System.IO.Path.Combine(env.ContentRootPath, "logger.config"));
+            loggerFactory.AddLog4Net(Path.Combine(env.ContentRootPath, "logger.config"));
 
             if (env.IsDevelopment())
             {

@@ -1,15 +1,19 @@
-﻿using System;
-using System.IO;
-using System.Threading;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using Microsoft.Reporting.WebForms.Internal.Soap.ReportingServices2005.Execution;
-using Tui.Flights.Core.EventBus;
-using Tui.Flights.Reporting.Api.IntegrationsEvents.Events;
-
-namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
+﻿namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
 {
+    using System;
+    using System.Diagnostics;
+    using System.Globalization;
+    using System.IO;
+    using System.Net;
+    using System.Threading;
+    using System.Threading.Tasks;
+    using System.Web.Services.Protocols;
+    using Microsoft.Extensions.Configuration;
+    using Microsoft.Extensions.Logging;
+    using Microsoft.Reporting.WebForms.Internal.Soap.ReportingServices2005.Execution;
+    using Tui.Flights.Core.EventBus;
+    using Tui.Flights.Reporting.Api.IntegrationsEvents.Events;
+
     /// <summary>
     /// GenerateFlightsMessageHandler
     /// </summary>
@@ -58,7 +62,7 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
             Task[] taskArray = new Task[serialNumbers.Length];
             for (int i = 0; i < serialNumbers.Length; i++)
             {
-                var state = new TuiDataTask()
+                var state = new TuiDataTask
                 {
                     SerialNumber = serialNumbers[i],
                     Period = flightEvent.FlightPeriod,
@@ -66,7 +70,7 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
                 };
 
                 taskArray[i] = Task.Factory.StartNew(
-                    async (object obj) =>
+                    async obj =>
                     {
                         var data = obj as TuiDataTask;
                         if (data == null)
@@ -105,7 +109,7 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
                 try
                 {
                     rs.Timeout = Timeout.Infinite;
-                    rs.Credentials = new System.Net.NetworkCredential(userSsrs, pwdSsrs, domainSsrs);
+                    rs.Credentials = new NetworkCredential(userSsrs, pwdSsrs, domainSsrs);
                     rs.Url = $"{reportServerUrl}/ReportExecution2005.asmx";
 
                     ParameterValue[] parameters = new ParameterValue[3];
@@ -126,7 +130,7 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
                     };
 
                     rs.LoadReport(reportPath, null);
-                    rs.SetExecutionParameters(parameters, System.Globalization.CultureInfo.CurrentCulture.ToString());
+                    rs.SetExecutionParameters(parameters, CultureInfo.CurrentCulture.ToString());
 
                     string devInfo = "<DeviceInfo><Toolbar>False</Toolbar></DeviceInfo>";
                     var result = rs.Render("pdf", devInfo, Extension: out _, MimeType: out _, Encoding: out _, Warnings: out _, StreamIds: out _);
@@ -134,21 +138,21 @@ namespace Tui.Flights.Reporting.Api.IntegrationsEvents.EventHandling
                     rs.GetExecutionInfo();
 
                     File.WriteAllBytes(
-                        $"{pdfDirectory}\\{serialNumber}_{period}_{DateTime.Now.ToString("ddMMyyyyHHmmss", System.Globalization.CultureInfo.InvariantCulture)}.pdf",
+                        $"{pdfDirectory}\\{serialNumber}_{period}_{DateTime.Now.ToString("ddMMyyyyHHmmss", CultureInfo.InvariantCulture)}.pdf",
                         result);
                     this._logger?.LogDebug(
                         $"GenerateTUIReport {Thread.CurrentThread.ManagedThreadId} :  GeneratedPdf {serialNumber}_{period}");
 
                     rs.Dispose();
                 }
-                catch (System.Web.Services.Protocols.SoapException se)
+                catch (SoapException se)
                 {
                     this._logger?.LogError(se, "ReportExecutionTask se: ");
                     this._logger?.LogError(se, "SerialNumber is: " + serialNumber);
                 }
-                catch (System.Net.WebException we)
+                catch (WebException we)
                 {
-                    System.Diagnostics.Debug.WriteLine(we);
+                    Debug.WriteLine(we);
                     this._logger?.LogError(we, "ReportExecutionTask we: ");
                     throw;
                 }

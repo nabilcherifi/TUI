@@ -1,8 +1,8 @@
-﻿using System;
-using RabbitMQ.Client;
-
-namespace Tui.Flights.Core.EventBusClient
+﻿namespace Tui.Flights.Core.EventBusClient
 {
+    using System;
+    using RabbitMQ.Client;
+
     /// <summary>
     /// INetMQPersistentConnection
     /// </summary>

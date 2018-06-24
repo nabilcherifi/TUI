@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Concurrent;
-using System.IO;
-using System.Text;
-using System.Xml;
-using Microsoft.Extensions.Logging;
-
-namespace Tui.Flights.Core.Logger
+﻿namespace Tui.Flights.Core.Logger
 {
+    using System;
+    using System.Collections.Concurrent;
+    using System.IO;
+    using System.Text;
+    using System.Xml;
+    using Microsoft.Extensions.Logging;
+
     /// <summary>
     /// Log4NetProvider
     /// </summary>
@@ -37,11 +37,11 @@ namespace Tui.Flights.Core.Logger
         private static string FormatExceptionByDefault<TState>(TState state, Exception exception)
         {
             var builder = new StringBuilder();
-            builder.Append(state.ToString());
+            builder.Append(state);
             builder.Append(" - ");
             if (exception != null)
             {
-                builder.Append(exception.ToString());
+                builder.Append(exception);
             }
 
             return builder.ToString();

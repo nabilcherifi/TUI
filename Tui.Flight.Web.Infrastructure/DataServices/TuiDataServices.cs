@@ -2,9 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
-    using DataLayer;
-    using DataLayer.Itf;
     using Microsoft.Extensions.Logging;
+    using Tui.Flights.Web.Infrastructure.DataLayer;
+    using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
 
     /// <summary>
     /// TuiDataServices
@@ -51,7 +51,7 @@
 
             var flightReport = new TuiNewFlight(flightPeriod, flightName)
             {
-                FlightPeriod = flightPeriod,
+                FlightPeriod = flightPeriod
             };
             return flightReport;
         }

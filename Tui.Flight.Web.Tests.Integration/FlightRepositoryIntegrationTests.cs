@@ -1,12 +1,12 @@
-﻿using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using NUnit.Framework;
-using Tui.Flights.Web.Core.Models;
-using Tui.Flights.Web.Infrastructure.DataLayer;
-
-namespace Tui.Flights.Web.Tests.IntegrationTests
+﻿namespace Tui.Flights.Web.Tests.IntegrationTests
 {
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using NUnit.Framework;
+    using Tui.Flights.Web.Core.Models;
+    using Tui.Flights.Web.Infrastructure.DataLayer;
+
     /// <summary>
     /// FlightRepositoryIntegrationTests
     /// </summary>

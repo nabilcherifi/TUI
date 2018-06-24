@@ -1,17 +1,13 @@
-﻿using System.Diagnostics;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Server.HttpSys;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-
-namespace Tui.Flights.ReportManager.Api
+﻿namespace Tui.Flights.ReportManager.Api
 {
+    using System.Diagnostics;
+    using System.Globalization;
+    using System.IO;
+    using System.Linq;
+    using Microsoft.AspNetCore;
+    using Microsoft.AspNetCore.Hosting;
+    using Microsoft.Extensions.Configuration;
+
     /// <summary>
     /// Web Api Launcher
     /// </summary>
@@ -76,7 +72,7 @@ namespace Tui.Flights.ReportManager.Api
             IWebHost host = WebHost.CreateDefaultBuilder(args)
                     .UseKestrel()
                     .UseContentRoot(pathToContentRoot)
-                    .UseUrls(string.Format(System.Globalization.CultureInfo.InvariantCulture, "http://{0}:{1}", configuration["ServerName"], configuration["ServerPort"]))
+                    .UseUrls(string.Format(CultureInfo.InvariantCulture, "http://{0}:{1}", configuration["ServerName"], configuration["ServerPort"]))
                     .UseStartup<Startup>()
                     .Build();
 

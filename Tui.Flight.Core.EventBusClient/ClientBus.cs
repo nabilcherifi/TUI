@@ -10,8 +10,8 @@ namespace Tui.Flights.Core.EventBusClient
     using RabbitMQ.Client;
     using RabbitMQ.Client.Events;
     using RabbitMQ.Client.Exceptions;
-    using Tui.Flights.Core.EventBus;
-    using Tui.Flights.Core.EventBusClient;
+    using EventBus;
+    using EventBusClient;
 
     /// <summary>
     /// ClientBus

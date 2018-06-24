@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using Tui.Flights.Web.Core.Models;
-using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
-using Tui.Flights.Web.Infrastructure.IntegrationEvents.Events;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Logging;
+    using Tui.Flights.Web.Core.Models;
+    using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
+
     /// <summary>
     /// FlightRepository
     /// </summary>
@@ -114,7 +113,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
         /// <returns>string[]</returns>
         public string[] GetSummaryFlights(string departureAirport, string arrivalAirport, string flightStartDate, string flightEndDate)
         {
-            _logger?.LogInformation("Entering GetSummaryFlights() method");
+            this._logger?.LogInformation("Entering GetSummaryFlights() method");
 
             // ... AsNoTracking() : Improve performance
             var flightIds = (
@@ -125,7 +124,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
                       && (flg.EndDate.ToShortDateString() == flightEndDate)
                 select flg.FlightId).AsNoTracking().ToArray();
 
-            _logger?.LogInformation($"Leaving GetSummaryFlights() method");
+            this._logger?.LogInformation($"Leaving GetSummaryFlights() method");
 
             return flightIds;
         }

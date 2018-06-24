@@ -1,11 +1,11 @@
-﻿using System;
-using System.Linq;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using Tui.Flights.Web.Core.Models;
-using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
-
-namespace Tui.Flights.Web.Infrastructure.DataLayer
+﻿namespace Tui.Flights.Web.Infrastructure.DataLayer
 {
+    using System;
+    using System.Linq;
+    using Microsoft.EntityFrameworkCore.Infrastructure;
+    using Tui.Flights.Web.Core.Models;
+    using Tui.Flights.Web.Infrastructure.DataLayer.Itf;
+
     /// <summary>
     /// The UnitOfWork serves one purpose : to make sure that when you use multiple repositories, they share a single database context
     /// </summary>
@@ -13,6 +13,7 @@ namespace Tui.Flights.Web.Infrastructure.DataLayer
     {
         private readonly TuiDbContext _context;
 
+        /// <inheritdoc />
         /// <summary>
         /// Gets flightRepository
         /// </summary>

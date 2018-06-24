@@ -1,21 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Tui.Flights.Web.Core.Models
+﻿namespace Tui.Flights.Web.Core.Models
 {
+    using System;
+
     /// <summary>
     /// Flight
     /// </summary>
     public class Flights
     {
-        /// <summary>
-        /// Initializes a new instance of the <see cref="Flights"/> class.
-        /// Flight
-        /// </summary>
-        public Flights()
-        {
-        }
-
         /// <summary>
         /// Gets or sets id
         /// </summary>
