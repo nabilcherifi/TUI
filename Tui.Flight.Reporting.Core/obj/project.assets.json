@@ -192,11 +192,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Reporting.Core\\Tui.Flights.Persistence.Core.csproj",
+      "projectUniqueName": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Reporting.Core\\Tui.Flights.Persistence.Core.csproj",
       "projectName": "Tui.Flight.Reporting.Core",
-      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Reporting.Core\\Tui.Flights.Persistence.Core.csproj",
+      "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Reporting.Core\\Tui.Flights.Persistence.Core.csproj",
       "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
-      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Reporting.Core\\obj\\",
+      "outputPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Reporting.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

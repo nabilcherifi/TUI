@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj",
+      "projectUniqueName": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj",
       "projectName": "Tui.Flight.Core.Logger",
-      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj",
+      "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj",
       "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
-      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.Logger\\obj\\",
+      "outputPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.Logger\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

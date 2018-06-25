@@ -10027,11 +10027,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj",
+      "projectUniqueName": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj",
       "projectName": "Tui.Flight.Web.Api",
-      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj",
+      "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj",
       "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
-      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Api\\obj\\",
+      "outputPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10050,23 +10050,23 @@
       "frameworks": {
         "net471": {
           "projectReferences": {
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBusClient\\Tui.FlightsCore.EventBusClient.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBusClient\\Tui.FlightsCore.EventBusClient.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.EventBusClient\\Tui.FlightsCore.EventBusClient.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.EventBusClient\\Tui.FlightsCore.EventBusClient.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.EventBus\\Tui.Flights.Core.EventBus.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Core.Logger\\Tui.Flights.Core.Logger.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Reporting.Api\\Tui.Flights.Persistence.Api.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Reporting.Api\\Tui.Flights.Persistence.Api.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Reporting.Api\\Tui.Flights.Persistence.Api.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Reporting.Api\\Tui.Flights.Persistence.Api.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj"
             }
           }
         }

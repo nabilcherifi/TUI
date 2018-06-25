@@ -7406,11 +7406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj",
+      "projectUniqueName": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj",
       "projectName": "Tui.Flight.Web.Tests.Mock",
-      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj",
+      "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj",
       "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
-      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Tests.Mock\\obj\\",
+      "outputPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Tests.Mock\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7429,8 +7429,8 @@
       "frameworks": {
         "net471": {
           "projectReferences": {
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Core\\Tui.Flights.Web.Core.csproj"
             }
           }
         }

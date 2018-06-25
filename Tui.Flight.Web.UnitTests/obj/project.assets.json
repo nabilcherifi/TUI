@@ -10217,11 +10217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.UnitTests\\Tui.Flights.Web.Tests.UnitTests.csproj",
+      "projectUniqueName": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.UnitTests\\Tui.Flights.Web.Tests.UnitTests.csproj",
       "projectName": "Tui.Flight.Web.Tests.UnitTests",
-      "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.UnitTests\\Tui.Flights.Web.Tests.UnitTests.csproj",
+      "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.UnitTests\\Tui.Flights.Web.Tests.UnitTests.csproj",
       "packagesPath": "C:\\Users\\Nabil\\.nuget\\packages\\",
-      "outputPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.UnitTests\\obj\\",
+      "outputPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10240,14 +10240,14 @@
       "frameworks": {
         "net471": {
           "projectReferences": {
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Api\\Tui.Flights.Web.Api.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Infrastructure\\Tui.Flights.Web.Infrastructure.csproj"
             },
-            "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj": {
-              "projectPath": "D:\\ALIVRER_TUI\\Cs.Dev\\src\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj"
+            "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj": {
+              "projectPath": "D:\\ALIVRER_TUI\\REPO\\TUI\\Tui.Flight.Web.Tests.Mock\\Tui.Flights.Web.Tests.Mock.csproj"
             }
           }
         }
